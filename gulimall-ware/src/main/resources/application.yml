@@ -8,15 +8,15 @@ spring:
     url: jdbc:mysql://192.168.56.10:3306/gulimall_wms
     driver-class-name: com.mysql.jdbc.Driver
 
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: 127.0.0.1:8848
-#  application:
-#    name: gulimall-ware
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-ware
 
-#  jackson:
-#    date-format: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
 
 
 mybatis-plus:
